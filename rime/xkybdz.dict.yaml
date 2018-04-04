@@ -1,7 +1,7 @@
-﻿---
+---
 name: xkybdz
-version: "20180316"
-sort: by_xkyb
+version: "Q1"
+sort: by_weight
 ...
 那	a
 不	b
@@ -219,8 +219,8 @@ sort: by_xkyb
 拌	bjeeo
 斑	bjeeoe
 扳	bjeeu
-扮	bjeeua
 坂	bjeeua
+扮	bjeeua
 靽	bjei
 板	bjeo
 昄	bji
@@ -420,7 +420,6 @@ sort: by_xkyb
 瘪	bxoe
 蹩	bxoo
 鳖	bxou
-喰	cjieu
 出	c
 差	ca
 叉	caa
@@ -597,6 +596,7 @@ sort: by_xkyb
 觇	cjie
 旵	cjiei
 躔	cjieo
+喰	cjieu
 辿	cjii
 巉	cjiiu
 蝉	cjio
@@ -1024,8 +1024,8 @@ sort: by_xkyb
 掂	dfee
 磹	dfeee
 碘	dfeei
-玷	dfeeii
 坫	dfeeii
+玷	dfeeii
 靛	dfeeo
 琔	dfeeoe
 垫	dfeo
@@ -1077,8 +1077,8 @@ sort: by_xkyb
 甙	dheei
 戴	dheo
 殆	dheoa
-棣	dheoao
 叇	dheoao
+棣	dheoao
 歹	dheu
 大	dheuo
 呆	dhi
@@ -1104,8 +1104,8 @@ sort: by_xkyb
 䃅	dieeoi
 𤧛	dieeoi
 砥	dieeu
-玓	dieeuo
 坻	dieeuo
+玓	dieeuo
 蒂	diei
 鞮	dieii
 荻	dieiu
@@ -1514,9 +1514,9 @@ sort: by_xkyb
 扶	fueee
 抚	fueeea
 辐	fueeei
-辅	fueeeo
 玞	fueeeo
 砆	fueeeo
+辅	fueeeo
 覆	fueeu
 琈	fueeua
 拊	fueeue
@@ -1526,8 +1526,8 @@ sort: by_xkyb
 芙	fueie
 韨	fueiea
 芾	fueiei
-莆	fueieo
 芣	fueieo
+莆	fueieo
 苻	fueiu
 莩	fueiua
 菔	fueiua
@@ -1582,8 +1582,8 @@ sort: by_xkyb
 腑	fuueo
 腹	fuueu
 鲋	fuueue
-馥	fuueuu
 鳆	fuueuu
+馥	fuueuu
 伏	fuui
 佛	fuuia
 傅	fuuie
@@ -1593,8 +1593,8 @@ sort: by_xkyb
 釜	fuuoe
 簠	fuuoei
 符	fuuou
-孵	fuuoua
 稃	fuuoua
+孵	fuuoua
 斧	fuuoui
 孚	fuuu
 非	fw
@@ -1718,8 +1718,8 @@ sort: by_xkyb
 擀	gjee
 酐	gjeee
 坩	gjeeee
-矸	gjeeei
 玕	gjeeei
+矸	gjeeei
 甘	gjei
 苷	gjeie
 乾	gjeiu
@@ -1967,8 +1967,8 @@ sort: by_xkyb
 轨	gvee
 邽	gveea
 圭	gveee
-硅	gveeee
 珪	gveeee
+硅	gveeee
 瑰	gveeu
 桂	gveo
 柜	gveoe
@@ -2449,8 +2449,8 @@ sort: by_xkyb
 晋	jbee
 珒	jbeea
 瑾	jbeee
-墐	jbeeei
 瑨	jbeeei
+墐	jbeeei
 琎	jbeeeo
 觐	jbeei
 堇	jbeeie
@@ -2552,8 +2552,8 @@ sort: by_xkyb
 铰	jduaou
 焦	jdue
 胶	jdueo
-皎	jdueou
 鲛	jdueou
+皎	jdueou
 皦	jdueu
 皭	jdueua
 侥	jdui
@@ -2757,8 +2757,8 @@ sort: by_xkyb
 辑	jieeie
 挤	jieeo
 其	jieeu
-矶	jieeua
 玑	jieeua
+矶	jieeua
 垍	jieeue
 圾	jieeuo
 戟	jiei
@@ -2775,9 +2775,9 @@ sort: by_xkyb
 殛	jieoa
 基	jieoe
 墼	jieoee
-奇	jieoei
 枅	jieoei
 耤	jieoei
+奇	jieoei
 棘	jieoeo
 楫	jieoi
 霁	jieoo
@@ -2814,9 +2814,9 @@ sort: by_xkyb
 济	jioeo
 瘠	jioeoi
 疾	jioeu
+鹡	jioeue
 洎	jioeue
 漈	jioeue
-鹡	jioeue
 汲	jioeuo
 剂	jioi
 齑	jioii
@@ -2842,10 +2842,10 @@ sort: by_xkyb
 季	jiuo
 祭	jiuoe
 籍	jiuoee
-嵇	jiuoei
 笄	jiuoei
-稽	jiuoeu
+嵇	jiuoei
 箕	jiuoeu
+稽	jiuoeu
 积	jiuoi
 稷	jiuoiu
 笈	jiuou
@@ -2901,8 +2901,8 @@ sort: by_xkyb
 嘉	jseea
 珈	jseeai
 戛	jseee
-颉	jseeei
 拮	jseeei
+颉	jseeei
 挟	jseeeo
 茄	jsei
 葭	jseia
@@ -3229,8 +3229,8 @@ sort: by_xkyb
 颗	kei
 咳	keie
 瞌	keiee
-嗑	keieei
 呵	keieei
+嗑	keieei
 髁	keiei
 喀	keieo
 岢	keii
@@ -3451,8 +3451,8 @@ sort: by_xkyb
 琳	lbe
 拎	lbee
 磷	lbeeo
-辚	lbeeou
 璘	lbeeou
+辚	lbeeou
 蔺	lbei
 霖	lbeo
 檩	lbeoo
@@ -3549,8 +3549,8 @@ sort: by_xkyb
 莶	lfeiuo
 殓	lfeo
 奁	lfeoe
-楝	lfeoeo
 梿	lfeoeo
+楝	lfeoeo
 蠊	lfi
 恋	lfo
 涟	lfoe
@@ -3656,8 +3656,8 @@ sort: by_xkyb
 郦	lieoa
 朸	lieoau
 雳	lieoe
-枥	lieoea
 嫠	lieoea
+枥	lieoea
 釐	lieoei
 逦	lieoo
 栎	lieou
@@ -3681,8 +3681,8 @@ sort: by_xkyb
 痢	lioe
 沥	lioee
 疬	lioeea
-溧	lioeee
 凓	lioeee
+溧	lioeee
 疠	lioeeu
 澧	lioei
 浬	lioeie
@@ -3908,8 +3908,8 @@ sort: by_xkyb
 碌	lueea
 琭	lueeai
 掳	lueei
-轳	lueeia
 垆	lueeia
+轳	lueeia
 璐	lueeiu
 辘	lueeo
 辂	lueeu
@@ -4525,8 +4525,8 @@ sort: by_xkyb
 奴	nua
 努	nuao
 弩	nuaoa
-驽	nuaoae
 孥	nuaoae
+驽	nuaoae
 砮	nuaoe
 胬	nuaoi
 笯	nuu
@@ -4746,8 +4746,8 @@ sort: by_xkyb
 彭	pmee
 砰	pmeee
 抨	pmeeei
-硼	pmeeuu
 堋	pmeeuu
+硼	pmeeuu
 苹	pmei
 蓬	pmeiu
 芃	pmeiuo
@@ -4862,7 +4862,6 @@ sort: by_xkyb
 垺	pxee
 瞥	pxo
 氕	pxu
-喰	qiieuo
 去	q
 亲	qb
 矜	qba
@@ -5053,8 +5052,8 @@ sort: by_xkyb
 郪	qieea
 玘	qieeaa
 琪	qieee
-琦	qieeee
 埼	qieeee
+琦	qieeee
 碶	qieeee
 碛	qieeei
 揭	qieei
@@ -5073,8 +5072,8 @@ sort: by_xkyb
 欹	qieiuu
 期	qieo
 杞	qieoa
-綦	qieoai
 𨙸	qieoai
+綦	qieoai
 奇	qieoe
 栖	qieoee
 槭	qieoei
@@ -5088,9 +5087,10 @@ sort: by_xkyb
 歧	qiie
 嘁	qiiee
 跂	qiieea
-畦	qiieee
 踦	qiieee
+畦	qiieee
 蹊	qiieu
+喰	qiieuo
 岂	qiii
 屺	qiiia
 崎	qiiie
@@ -5444,7 +5444,6 @@ sort: by_xkyb
 锐	rvu
 润	ry
 闰	ryo
-喰	syieu
 是	s
 啥	sa
 纱	saa
@@ -5567,8 +5566,8 @@ sort: by_xkyb
 䴓	sieiu
 死	sieo
 势	sieoa
-肆	sieoai
 邿	sieoai
+肆	sieoai
 式	sieoe
 栻	sieoee
 奭	sieoee
@@ -5610,9 +5609,9 @@ sort: by_xkyb
 澌	sioee
 凘	sioeeu
 湿	sioei
-泗	sioeie
-湜	sioeie
 浉	sioeie
+湜	sioeie
+泗	sioeie
 恃	sioi
 视	sioo
 祀	siooa
@@ -6018,6 +6017,7 @@ sort: by_xkyb
 楯	syeou
 瞬	syi
 吮	syie
+喰	syieu
 笋	syu
 舜	syua
 隼	syue
@@ -6593,8 +6593,8 @@ sort: by_xkyb
 玩	wjee
 碗	wjeeo
 塆	wjeeoa
-琬	wjeeou
 豌	wjeeou
+琬	wjeeou
 挽	wjeeu
 蔓	wjei
 莞	wjeio
@@ -6694,8 +6694,8 @@ sort: by_xkyb
 珷	wueeei
 恶	wueeo
 巫	wueeu
-坞	wueeue
 鹀	wueeue
+坞	wueeue
 芜	wuei
 靰	wueie
 芴	wueiu
@@ -6788,8 +6788,8 @@ sort: by_xkyb
 帏	wwiie
 崴	wwiiee
 帷	wwiiu
-嵬	wwiiua
 峗	wwiiua
+嵬	wwiiua
 韪	wwio
 遗	wwioo
 谓	wwo
@@ -7079,16 +7079,16 @@ sort: by_xkyb
 淅	xioee
 𠅤	xioei
 溪	xioeu
-羲	xioeue
 浠	xioeue
+羲	xioeue
 汐	xioeuo
 潟	xioeuu
 忾	xioi
 恓	xioie
 惜	xioo
 禧	xiooe
-禊	xiooee
 粞	xiooee
+禊	xiooee
 裼	xiooi
 爔	xiooo
 熄	xioou
@@ -7101,8 +7101,8 @@ sort: by_xkyb
 锡	xiuai
 饻	xiuao
 铣	xiuau
-饩	xiuaua
 鼷	xiuaua
+饩	xiuaua
 息	xiue
 翕	xiuea
 郤	xiueai
@@ -7194,8 +7194,8 @@ sort: by_xkyb
 琄	xteei
 揎	xteeo
 玹	xteeoa
-碹	xteeoe
 瑄	xteeoe
+碹	xteeoe
 萱	xtei
 楦	xteo
 悬	xti
@@ -7214,8 +7214,8 @@ sort: by_xkyb
 谖	xtoau
 渲	xtoe
 漩	xtoeo
-泫	xtoeoa
 痃	xtoeoa
+泫	xtoeoa
 癣	xtoeu
 愃	xtoi
 炫	xtoo
@@ -7251,8 +7251,8 @@ sort: by_xkyb
 嘘	xuie
 勖	xuiea
 吁	xuiee
-盱	xuieei
 旴	xuieei
+盱	xuieei
 冔	xuiei
 煦	xuieo
 昫	xuieu
@@ -7319,8 +7319,8 @@ sort: by_xkyb
 鞋	xxe
 携	xxee
 挟	xxeee
-撷	xxeeee
 揳	xxeeee
+撷	xxeeee
 颉	xxeeei
 𤫉	xxeeo
 协	xxei
@@ -7418,10 +7418,10 @@ sort: by_xkyb
 轧	yaeea
 揠	yaeee
 琊	yaeeea
-垭	yaeeee
 堐	yaeeee
-砑	yaeeeu
+垭	yaeeee
 玡	yaeeeu
+砑	yaeeeu
 芽	yaei
 桠	yaeo
 雅	yaeu
@@ -7665,9 +7665,9 @@ sort: by_xkyb
 溢	yioeo
 癔	yioeoo
 亦	yioeu
-疫	yioeua
 㴔	yioeua
 洢	yioeua
+疫	yioeua
 漪	yioeue
 鹢	yioeue
 沂	yioeui
@@ -7678,8 +7678,8 @@ sort: by_xkyb
 益	yioo
 熠	yiooa
 奕	yiooe
-弈	yiooei
 祎	yiooei
+弈	yiooei
 裔	yiooi
 燚	yiooo
 毅	yioou
@@ -7713,8 +7713,8 @@ sort: by_xkyb
 刈	yiuoi
 逸	yiuoo
 食	yiuooo
-乂	yiuooo
 舣	yiuooo
+乂	yiuooo
 移	yiuou
 簃	yiuouu
 猗	yiuu
@@ -7895,8 +7895,8 @@ sort: by_xkyb
 疡	ypoea
 泱	ypoei
 恙	ypoeo
-漾	ypoeoo
 羕	ypoeoo
+漾	ypoeoo
 怏	ypoi
 养	ypoo
 炀	ypooa
@@ -8436,9 +8436,9 @@ sort: by_xkyb
 枝	zieoe
 栉	zieoea
 桎	zieoee
+榰	zieoei
 植	zieoei
 殖	zieoei
-榰	zieoei
 梽	zieoeo
 贽	zieoi
 枳	zieoiu
@@ -8462,8 +8462,8 @@ sort: by_xkyb
 跖	ziieei
 止	ziiei
 趾	ziieie
-眦	ziieiu
 呲	ziieiu
+眦	ziieiu
 踯	ziieo
 嗞	ziieoa
 蹢	ziieoi
@@ -8483,8 +8483,8 @@ sort: by_xkyb
 谘	zioao
 治	zioe
 兹	zioea
-淄	zioeai
 滍	zioeai
+淄	zioeai
 汁	zioee
 痓	zioeee
 滞	zioeei
@@ -8501,8 +8501,8 @@ sort: by_xkyb
 痔	ziooe
 窒	ziooee
 咨	ziooi
-祉	ziooie
 禔	ziooie
+祉	ziooie
 恣	ziooo
 粢	zioooo
 祗	zioou

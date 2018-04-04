@@ -4,8 +4,8 @@
 # 星空一笔 扩展词库控制
 ---
 name: xkyb.extended
-version: "v1"
-sort: by_xkyb
+version: "Q1"
+sort: by_weight
 use_preset_vocabulary: true
 import_tables:
 # ---------------------------------------
@@ -37,6 +37,9 @@ import_tables:
 # ---------------------------------------
 # 扩展：简码
   - xkybjm
+# ---------------------------------------
+# 扩展：链接
+  - xkyblj
 # ---------------------------------------
 # 扩展：补充
   - xkybbc

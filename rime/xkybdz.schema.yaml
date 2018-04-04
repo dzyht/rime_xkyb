@@ -3,7 +3,7 @@
 schema:
   schema_id: xkybdz
   name: 星空一笔单字
-  version: "v1"
+version: "Q1"
   author:
     - 发明人 大牛
   dependencies:
