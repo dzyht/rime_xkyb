@@ -3,8 +3,8 @@
 
 schema:
   schema_id: xkybcx
-  name: 星空一笔反查
-  version: "v11"
+  name: 万能键“'”（长按Z）
+  version: "v1"
 
 switches:
   - name: ascii_mode

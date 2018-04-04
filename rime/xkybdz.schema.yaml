@@ -16,7 +16,7 @@ switches:
     reset: 0
     states: [ 中, 英 ]
   - name: _hide_candidate  
-    reset: 0 #默认关闭这个开关，开启候选栏
+    reset: 0 #默认关闭这个开关，开启候选栏1
   #简繁转换
   - name: jffh
   #全半转换

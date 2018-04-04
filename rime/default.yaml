@@ -6,8 +6,6 @@ config_version: "0.37"
 schema_list:
   - schema: xkyb
   - schema: xkybdz
-  - schema: xklb
-  - schema: xklbdz
   
 switcher:
   caption: 〔方案選單〕
