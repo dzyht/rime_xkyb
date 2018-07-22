@@ -8,10 +8,10 @@ author: 散步的鹤 flypy.com#作者资讯
 height:
 # ----------键盘高度调整------------
 
-  A: &VJN 39           #数字顶栏高
+  A: &VJN 40           #数字顶栏高
   B: &VJG 50           #主键盘键高  自定   
   C: &FJG 48            #符号键盘键高  B=A*4/5=43.2取整随意
-  D: &WJG 48       #符号键盘第5行键高  C≈B，如主键盘和符号键盘不等高，调整
+  D: &WJG 47.5       #符号键盘第5行键高  C≈B，如主键盘和符号键盘不等高，调整
 
   F: &HXG 35         #候选区高度
   
@@ -81,7 +81,7 @@ style:
   key_long_text_size: 15 #长标签字号
   key_text_size: 21 #键字号
   key_width: 10.0 #键宽，占银幕宽的百分比
-  keyboards: [.default, default, defaulti, defaultVJ1, defaultVJ2, defaultVJ3, defaultVJ4, letter, number, menu, symbols, symbols01, symbols02, symbols03, symbols11, symbols12, symbols13, symbols14, symbols21, symbols22, symbols31, symbols32, symbols33, symbols34, symbols35, symbols36, symbols41, symbols42, symbols43, symbols44, symbols51, symbols52, symbols53, symbols54, symbols55, symbols56, symbols61, symbols62, symbols63, symbols64, symbols65, symbols71, symbols72, symbols73, symbols74, symbols75, symbols81, symbols82, symbols83, symbols91, symbols92, symbols93, symbolsA1, symbolsA2, symbolsA3, symbolsA4, symbolsA5, symbolsB1, symbolsB2, symbolsB3, symbolsC1, symbolsC2, symbolsC3, symbolsC4, symbolsC5, symbolsD1, symbolsD2] #键盘配置
+  keyboards: [.default, default, defaulti, defaultVJ1, defaultVJ2, defaultVJ3, defaultVJ4,defaultVJ5, letter, number, menu, symbols, symbols01, symbols02, symbols03, symbols11, symbols12, symbols13, symbols14, symbols21, symbols22, symbols31, symbols32, symbols33, symbols34, symbols35, symbols36, symbols41, symbols42, symbols43, symbols44, symbols51, symbols52, symbols53, symbols54, symbols55, symbols56, symbols61, symbols62, symbols63, symbols64, symbols65, symbols71, symbols72, symbols73, symbols74, symbols75, symbols81, symbols82, symbols83, symbols91, symbols92, symbols93, symbolsA1, symbolsA2, symbolsA3, symbolsA4, symbolsA5, symbolsB1, symbolsB2, symbolsB3, symbolsC1, symbolsC2, symbolsC3, symbolsC4, symbolsC5, symbolsD1, symbolsD2] #键盘配置
   label_text_size: 22 #标签字号
   label_font: OYster.ttf #标签字型
   latin_font: OYster.ttf #西文字型
@@ -138,6 +138,119 @@ fallback_colors:
   
 #配色方案
 preset_color_schemes:
+  ggq:
+    author: none
+    name: 谷歌青
+    back_color: 0xfffefefe #候选区背景状态栏
+    border_color: 0xfffefefe #悬浮边框
+    candidate_separator_color: 0x00000000 #候选分割背景
+    candidate_text_color: 0xff5a676e #候选文本
+    comment_text_color: 0xff4cb6ac #提示
+    hilited_back_color: 0x00000000 #高亮编码背景
+    hilited_candidate_back_color: 0x00000000 #高亮候选背景
+    hilited_candidate_text_color: 0xff4cb6ac #高亮候选文本
+    hilited_comment_text_color: 0xff000000 #高亮提示
+    hilited_key_back_color: 0xff4cb6ac #高亮按键背景
+    hilited_key_symbol_color: 0xfffefefe #高亮按键符号
+    hilited_key_text_color: 0xfffefefe #高亮按键文本
+    hilited_off_key_back_color: 0xfffefefe #高亮按键关闭状态背景
+    hilited_off_key_text_color: 0xff000000 #高亮按键关闭状态文本
+    hilited_on_key_back_color: 0xfffefefe
+    hilited_on_key_text_color: 0xff000000
+    hilited_text_color: 0xff4cb6ac #高亮编码
+    key_back_color: 0xfffefefe #按键背景
+    key_symbol_color: 0xff414141 #按键符号
+    key_text_color: 0xff414141 #按键文本
+    keyboard_back_color: 0xffe1e1e1 #键盘背景
+    label_color: 0xff5a676e #标签
+    off_key_back_color: 0xff4cb6ac #按键关闭状态背景
+    off_key_text_color: 0xfffefefe #按键关闭状态文本
+    on_key_back_color: 0xff4cb6ac
+    on_key_text_color: 0xff000000
+    preview_back_color: 0xff4cb6ac #按键提示背景
+    preview_text_color: 0xfffefefe #按键提示文本
+    shadow_color: 0xff000000 #按键文字阴影
+    text_back_color: 0xfffefefe #编码区悬浮窗背景
+    text_color: 0xff5a676e #编码
+    qnh: 0xff4cb6ac
+    qnb: 0xfffefefe
+    wnh: 0xff4cb6ac
+    wnb: 0xfffefefe 
+    enh: 0xff4cb6ac 
+    enb: 0xfffefefe 
+    rnh: 0xff4cb6ac 
+    rnb: 0xfffefefe 
+    tnh: 0xff4cb6ac 
+    tnb: 0xfffefefe 
+    ynh: 0xff4cb6ac 
+    ynb: 0xfffefefe 
+    unh: 0xff4cb6ac 
+    unb: 0xfffefefe 
+    inh: 0xff4cb6ac 
+    inb: 0xfffefefe 
+    onh: 0xff4cb6ac 
+    onb: 0xfffefefe 
+    pnh: 0xff4cb6ac 
+    pnb: 0xfffefefe 
+    anh: 0xff4cb6ac 
+    anb: 0xfffefefe 
+    snh: 0xff4cb6ac 
+    snb: 0xfffefefe
+    dnh: 0xff4cb6ac
+    dnb: 0xfffefefe 
+    fnh: 0xff4cb6ac
+    fnb: 0xfffefefe 
+    gnh: 0xff4cb6ac 
+    gnb: 0xfffefefe 
+    hnh: 0xff4cb6ac 
+    hnb: 0xfffefefe 
+    jnh: 0xff4cb6ac 
+    jnb: 0xfffefefe 
+    knh: 0xff4cb6ac 
+    knb: 0xfffefefe 
+    lnh: 0xff4cb6ac 
+    lnb: 0xfffefefe 
+    znh: 0xff4cb6ac 
+    znb: 0xfffefefe 
+    xnh: 0xff4cb6ac 
+    xnb: 0xfffefefe 
+    cnh: 0xff4cb6ac 
+    cnb: 0xfffefefe 
+    vnh: 0xff4cb6ac 
+    vnb: 0xfffefefe 
+    bnh: 0xff4cb6ac 
+    bnb: 0xfffefefe
+    nnh: 0xff4cb6ac
+    nnb: 0xfffefefe 
+    mnh: 0xff4cb6ac 
+    mnb: 0xfffefefe
+    nmb: 0xfffefefe
+    nmh: 0xff4cb6ac
+    gmb: 0xff4cb6ac #主键功能键背景
+    gmh: 0xfffefefe #主键功能键高亮背景
+    dmb: 0xff4cb6ac #主键退格键背景
+    dmh: 0xfffefefe #主键退格键高亮背景
+    numb: 0xff4cb6ac #主键顶排数字键背景
+    numh: 0xfffefefe #主键顶排数字键高亮背景
+    numt: 0xfffefefe
+    numht: 0xff414141
+    gms: 0xfffefefe #功能键上档文字颜色
+    gmhs: 0xff000000
+    gnt: 0xfffefefe
+    kgb: 0xfffefefe #空格背景
+    kgh: 0xff4cb6ac
+    kgs: 0xff414141
+    kgt: 0xff414141
+    hcb: 0xff4cb6ac #回车键背景色
+    hch: 0xfffefefe #回车键高亮背景
+    hcs: 0xfffefefe #回车键上档文字颜色
+    hchs: 0xff000000
+    hct: 0xfffefefe #回车键文字颜色
+    cdt: 0xff4cb6ac #符号键盘当前菜单键文字颜色
+    cdh: 0xfffefefe
+    fyt: 0xffd3d7da #翻页键止文字颜色
+    sky: 0xff4cb6ac #sky键文字颜色  
+    xdb: 0xfffefefe #❖选单界面背景色
   pastel purple:
     author: none
     name: Pastel Purple
@@ -402,7 +515,7 @@ preset_color_schemes:
     qnb: 0xfffefefe
     wnh: 0xff7e8acd
     wnb: 0xfffefefe 
-    enh: 0xff7e8acd 
+    enh: 0xff7e8acd
     enb: 0xfffefefe 
     rnh: 0xff7e8acd 
     rnb: 0xfffefefe 
@@ -1072,30 +1185,30 @@ preset_keyboards:
       - {click: 9, key_back_color: numb, hilited_key_back_color: numh, key_text_color: numt, hilited_key_text_color: numht}
       - {click: 0, key_back_color: numb, hilited_key_back_color: numh, key_text_color: numt, hilited_key_text_color: numht}
       # 第二行
-      - {click: 'q', long_click: '|', key_back_color: qnb, hilited_key_back_color: qnh}
+      - {click: 'q', long_click: '～', key_back_color: qnb, hilited_key_back_color: qnh}
       - {click: 'w', long_click: '@', key_back_color: wnb, hilited_key_back_color: wnh}
       - {click: 'e', long_click: '#', key_back_color: enb, hilited_key_back_color: enh}
       - {click: 'r', long_click: '$', key_back_color: rnb, hilited_key_back_color: rnh}
       - {click: 't', long_click: '%', swipe_down: Tab, key_back_color: tnb, hilited_key_back_color: tnh}
       - {click: 'y', long_click: '^', key_back_color: ynb, hilited_key_back_color: ynh}
       - {click: 'u', long_click: '&', key_back_color: unb, hilited_key_back_color: unh}
-      - {click: 'i', long_click: '*', swipe_down: K_defaulti, key_back_color: inb, hilited_key_back_color: inh}
-      - {click: 'o', long_click: '<>{Left}', key_back_color: onb, hilited_key_back_color: onh}
-      - {click: 'p', long_click: '\', key_back_color: pnb, hilited_key_back_color: pnh}
+      - {click: 'i', long_click: '*', key_back_color: inb, hilited_key_back_color: inh}
+      - {click: 'o', long_click: '{}{Left}', swipe_left: '{', swipe_right: '}', key_back_color: onb, hilited_key_back_color: onh}
+      - {click: 'p', long_click: '[]{Left}', swipe_left: '[', swipe_right: ']', key_back_color: pnb, hilited_key_back_color: pnh}
       # 第三行 
       - {width: 5} 
       - {click: 'a', long_click: select_all1, key_back_color: anb, hilited_key_back_color: anh}
-      - {click: 's', long_click: '~', key_back_color: snb, hilited_key_back_color: snh}
-      - {click: 'd', long_click: '-', key_back_color: dnb, hilited_key_back_color: dnh}
-      - {click: 'f', long_click: '_', key_back_color: fnb, hilited_key_back_color: fnh}
-      - {click: 'g', long_click: '(){Left}', swipe_down: K_symbols0x, key_back_color: gnb, hilited_key_back_color: gnh}
-      - {click: 'h', long_click: '[]{Left}', key_symbol_offset_x: 5, key_back_color: hnb, hilited_key_back_color: hnh}
-      - {click: 'j', long_click: '{}{Left}', key_back_color: jnb, hilited_key_back_color: jnh}
+      - {click: 's', long_click: '+', key_back_color: snb, hilited_key_back_color: snh}
+      - {click: 'd', long_click: '_', key_back_color: dnb, hilited_key_back_color: dnh}
+      - {click: 'f', long_click: '-', key_back_color: fnb, hilited_key_back_color: fnh}
+      - {click: 'g', long_click: 'K_symbols0x', swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down, key_back_color: gnb, hilited_key_back_color: gnh}
+      - {click: 'h', long_click: '\', key_back_color: hnb, hilited_key_back_color: hnh}
+      - {click: 'j', long_click: '(){Left}', swipe_left: '(', swipe_right: ')', key_back_color: jnb, hilited_key_back_color: jnh}
       - {click: 'k', long_click: ':', key_back_color: knb, hilited_key_back_color: knh}
       - {click: 'l', long_click: ';', key_back_color: lnb, hilited_key_back_color: lnh}
       # 第四行 
       - {click: Shift_L1, composing: Escape, key_back_color: gmb, hilited_key_back_color: gmh, off_key_back_color: gmb, on_key_back_color: gmb, key_symbol_color: gms, width: 15}
-      - {click: 'z', long_click: '`', swipe_down: K_defaultVJ4, key_back_color: znb, hilited_key_back_color: znh}
+      - {click: 'z', long_click: '`', key_back_color: znb, hilited_key_back_color: znh}
       - {click: 'x', long_click: cut1, swipe_down: cut3, key_back_color: xnb, hilited_key_back_color: xnh}
       - {click: 'c', long_click: copy1, swipe_down: copy3, key_back_color: cnb, hilited_key_back_color: cnh}
       - {click: 'v', long_click: paste1, swipe_down: paste3, key_back_color: vnb, hilited_key_back_color: vnh}
@@ -1112,27 +1225,7 @@ preset_keyboards:
       - {click: Return, key_text_offset_y: 2, long_click: Theme_settings2, swipe_up: Mode_switch, key_back_color: hcb, key_text_color: hct, key_symbol_color: hcs, hilited_key_back_color: hch, width: 15, key_symbol_offset_x: 12, hilited_key_symbol_color: hchs}
     name: "预设26鍵"
     width: 10
-  defaulti:
-    __include: /preset_keyboards/default
-    __patch:
-        "keys/@16/swipe_down": Home
-        "keys/@18/swipe_down": End
-        "keys/@26/swipe_down": Left
-        "keys/@27/swipe_down": Up
-        "keys/@28/swipe_down": Down
-        "keys/@29/swipe_down": Right
-        "keys/@17/swipe_down": K_defaultMR
-        "keys/@16/hint": Home
-        "keys/@18/hint": End
-        "keys/@26/hint": Left
-        "keys/@27/hint": Up
-        "keys/@28/hint": Down
-        "keys/@29/hint": Right
-    key_hint_offset_y: *VJhintY
-    key_text_offset_y: *VJtextY 
-    name: "助记26鍵"
-    width: 10
-  defaultVJ4:
+  defaultVJ2:
     __include: /preset_keyboards/default
     __patch:
         "keys/@12/long_click": "一"
@@ -1143,7 +1236,7 @@ preset_keyboards:
         "keys/@22/long_click": sh
         "keys/@31/long_click": zh
         "keys/@33/long_click": ch
-        "keys/@31/swipe_down": K_defaultMR
+        "keys/@36/swipe_down": K_defaultMR
         "keys/@42/label": 星空一道
         "keys/@10/hint": iu
         "keys/@11/hint": ei
@@ -1239,63 +1332,12 @@ preset_keyboards:
     key_text_offset_y: *VJtextY 
     name: "助记26鍵"
     width: 10
-  defaultVJ2:
-    __include: /preset_keyboards/default
-    __patch:
-        "keys/@12/hint": 一
-        "keys/@18/hint": 丶
-        "keys/@21/hint": 乛
-        "keys/@22/hint": sh
-        "keys/@31/hint": zh
-        "keys/@36 /swipe_down": K_defaultMR
-        "keys/@11/hint": 草
-        "keys/@13/hint": 金
-        "keys/@14/hint": 水
-        "keys/@16/hint": 手 丿
-        "keys/@17/hint": 日 丨
-        "keys/@26/hint": 人
-        "keys/@27/hint": 口
-        "keys/@33/hint": ch 月
-        "keys/@35/hint": 木
-        "keys/@36/hint": 土
-        "keys/@10/long_click": 丨丨
-        "keys/@11/long_click": 丨丶
-        "keys/@12/long_click": 丨乛
-        "keys/@13/long_click": 丨一
-        "keys/@14/long_click": 丨丿
-        "keys/@15/long_click": 一丨
-        "keys/@16/long_click": 一丶
-        "keys/@17/long_click": 一乛
-        "keys/@18/long_click": 一一
-        "keys/@19/long_click": 一丿
-        "keys/@21/long_click": 丶丨
-        "keys/@22/long_click": 丶丶
-        "keys/@23/long_click": 丶乛
-        "keys/@24/long_click": 丶一
-        "keys/@25/long_click": 丶丿
-        "keys/@26/long_click": 丿丨
-        "keys/@27/long_click": 丿丶
-        "keys/@28/long_click": 丿乛
-        "keys/@29/long_click": 丿一
-        "keys/@31/long_click": 乛丨
-        "keys/@32/long_click": 乛丶
-        "keys/@33/long_click": 乛乛
-        "keys/@35/long_click": 乛一
-        "keys/@36/long_click": 乛丿
-        "keys/@37/long_click": 丿丿
-        "keys/@42/label": 星空两笔
-        "keys/@34/key_text_color": 0xFFFF002B
-    key_symbol_offset_x: 1.8
-    key_hint_offset_y: *VJhintY
-    key_text_offset_y: *VJtextY
-    name: "助记26鍵"
-    width: 10
   defaultVJ3:
     __include: /preset_keyboards/default
     __patch:
         "keys/@10/hint": "ua iu"
         "keys/@11/hint": "ei un"
-        "keys/@12/hint": "e"
+        "keys/@23/hint": "e"
         "keys/@13/hint": "eng"
         "keys/@14/hint": "uan"
         "keys/@15/hint": "(i)ong"
@@ -1305,34 +1347,37 @@ preset_keyboards:
         "keys/@19/hint": "ang"
         "keys/@21/hint": "水 贝o"
         "keys/@22/hint": "a ia"
-        "keys/@23/hint": "ou ie"
+        "keys/@32/hint": "ou ie"
         "keys/@24/hint": "an"
         "keys/@25/hint": "uai ing"
-        "keys/@26/hint": "ai ue üe"
-        "keys/@27/hint": "u er"
+        "keys/@26/hint": "ai ue"
+        "keys/@27/hint": "u er ü"
         "keys/@28/hint": "i"
-        "keys/@29/hint": "uo ü o"
+        "keys/@29/hint": "uo o"
         "keys/@31/hint": "ao"
-        "keys/@32/hint": "(i,u)ang"
+        "keys/@34/hint": "(i,u)ang"
         "keys/@33/hint": "iao"
-        "keys/@34/hint": "木 土o"
+        "keys/@12/hint": "木 土o"
         "keys/@35/hint": "in ui"
         "keys/@36/hint": "en"
         "keys/@37/hint": "ian"
         "keys/@37/swipe_down": K_defaultMR
-        "keys/@10/long_click": "zh"
-        "keys/@11/long_click": "ch"
-        "keys/@12/long_click": "sh"
+        "keys/@31/long_click": "zh"
+        "keys/@33/long_click": "ch"
+        "keys/@22/long_click": "sh"
         "keys/@16/long_click": "丿"
         "keys/@17/long_click": "丨"
         "keys/@18/long_click": "丶"    
         "keys/@21/long_click": "乛"
-        "keys/@24/long_click": "zh"
-        "keys/@27/long_click": "ch"
-        "keys/@34/long_click": "一"
-        "keys/@42/label": 星空键道
+        "keys/@12/long_click": "一"
+        "keys/@42/label": 星空魔道
         "keys/@17/label": "人 I"
-        "keys/@32/key_text_color": 0xFFFF002B
+        "keys/@12/key_text_color": sky
+        "keys/@16/key_text_color": sky
+        "keys/@17/key_text_color": sky
+        "keys/@18/key_text_color": sky
+        "keys/@21/key_text_color": sky
+        "keys/@34/key_text_color": 0xFFFF002B
     key_symbol_offset_x: 3
     key_hint_offset_y: *VJhintY
     key_text_offset_y: *VJtextY
@@ -3812,6 +3857,7 @@ preset_keys:
   K_defaultVJ2: {label: 两笔助记, functional: false, send: Eisu_toggle, select: defaultVJ2}
   K_defaultVJ3: {label: 键道助记, functional: false, send: Eisu_toggle, select: defaultVJ3}
   K_defaultVJ4: {label: 一道助记, functional: false, send: Eisu_toggle, select: defaultVJ4}
+  K_defaultVJ5: {label: 哲豆助记, functional: false, send: Eisu_toggle, select: defaultVJ5}
   K_menu: {label: ❖, preview: ' ', functional: false, send: Eisu_toggle, select: menu}
   K_menu1: {label: ●, preview: ' ', functional: false, send: Eisu_toggle, select: menu}
   K_menu2: {label: 选单, preview: ' ', functional: false, send: Eisu_toggle, select: menu}
